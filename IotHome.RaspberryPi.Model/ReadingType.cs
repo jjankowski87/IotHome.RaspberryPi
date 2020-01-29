@@ -1,0 +1,7 @@
+﻿namespace IotHome.RaspberryPi.Model
+{
+    public enum ReadingType
+    {
+        Temperature
+    }
+}
