@@ -2,6 +2,7 @@
 {
     public enum ReadingType
     {
-        Temperature
+        Temperature,
+        Humidity
     }
 }

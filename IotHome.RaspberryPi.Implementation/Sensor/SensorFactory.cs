@@ -19,7 +19,9 @@ namespace IotHome.RaspberryPi.Implementation.Sensor
             switch (sensorSettings.Type)
             {
                 case SensorType.RandomThermometer:
-                    return new RandomThermometer();
+                    return new RandomSensor(21m, 3m, sensorSettings.Name, ReadingType.Temperature);
+                case SensorType.RandomHygrometer:
+                    return new RandomSensor(45m, 10m, sensorSettings.Name, ReadingType.Humidity);
                 case SensorType.ChipsetThermometer:
                     return new ChipsetThermometer(_shellHelper, sensorSettings.Name);
                 case SensorType.DS18B20:
