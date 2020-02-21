@@ -1,4 +1,4 @@
-# IotHome.RaspberryPi
+# IotHome.RaspberryPi ![.NET Core](https://github.com/jjankowski87/IotHome.RaspberryPi/workflows/.NET%20Core/badge.svg)
 IoT temperature sensor based on RaspberryPi3, written in .NET Core
 
 ## Installation
